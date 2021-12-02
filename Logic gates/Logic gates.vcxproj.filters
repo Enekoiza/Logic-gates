@@ -14,4 +14,44 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LogicGate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryGate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AndGate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OrGate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnaryGate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NotGate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinaryGate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AndGate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OrGate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnaryGate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NotGate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
