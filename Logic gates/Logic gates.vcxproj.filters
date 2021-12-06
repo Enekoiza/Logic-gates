@@ -33,6 +33,9 @@
     <ClInclude Include="NotGate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="XOrGate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinaryGate.cpp">
@@ -51,6 +54,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="NotGate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XOrGate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

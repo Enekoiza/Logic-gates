@@ -145,6 +145,7 @@
     <ClInclude Include="NotGate.h" />
     <ClInclude Include="OrGate.h" />
     <ClInclude Include="UnaryGate.h" />
+    <ClInclude Include="XOrGate.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AndGate.cpp" />
@@ -153,6 +154,7 @@
     <ClCompile Include="NotGate.cpp" />
     <ClCompile Include="OrGate.cpp" />
     <ClCompile Include="UnaryGate.cpp" />
+    <ClCompile Include="XOrGate.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

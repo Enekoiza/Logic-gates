@@ -1,12 +1,15 @@
 #include "NotGate.h"
 
+
+//Constructor
 NotGate::NotGate(bool pin)
 {
 	this->pin = pin;
 }
 
-bool NotGate::perfomGateLogic()
+
+//Perform the logic of this gate
+bool NotGate::performGateLogic()
 {
-	if (pin == true) return false;
-	else return true;
+	return (!pin);
 }

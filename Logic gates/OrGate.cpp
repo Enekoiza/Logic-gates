@@ -1,13 +1,16 @@
 #include "OrGate.h"
 
+
+//Constructor
 OrGate::OrGate(bool pinA, bool pinB)
 {
 	this->pinA = pinA;
 	this->pinB = pinB;
 }
 
+
+//Function that performs the logic of this gate
 bool OrGate::performGateLogic()
 {
-	if ((pinA == false) & (pinB == false)) return false;
-	else return true;
+	return (pinA || pinB);
 }
