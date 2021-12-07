@@ -14,7 +14,7 @@ public:
 	XOrGate() {};
 	XOrGate(bool pinA, bool pinB);
 
-	//Destructors
+	//Destructor
 	~XOrGate() {};
 
 	//Inherited from BinaryGate

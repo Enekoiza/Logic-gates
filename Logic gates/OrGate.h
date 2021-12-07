@@ -13,7 +13,7 @@ public:
 	OrGate() {};
 	OrGate(bool pinA, bool pinB);
 
-	//Destructors
+	//Destructor
 	~OrGate() {};
 
 	//Inherited from BinaryGate

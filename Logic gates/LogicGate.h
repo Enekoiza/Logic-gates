@@ -4,7 +4,6 @@
 #ifndef LOGICGATE_H
 #define LOGICGATE_H
 
-using namespace std;
 //It will be the parent class of the whole project
 class LogicGate
 {

@@ -8,13 +8,13 @@
 //Inherits from LogicGate
 class BinaryGate : public LogicGate
 {
-
+//Can only be seen by the inherated classes
 protected:
 	bool pinA;
 	bool pinB;
 
 public:
-	//
+	//Function to set the value of the pines
 	void setPinA(bool newVal);
 	void setPinB(bool newVal);
 	
