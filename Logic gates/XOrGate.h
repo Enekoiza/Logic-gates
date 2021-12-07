@@ -1,5 +1,5 @@
 #include "BinaryGate.h"
-
+#include <string>
 
 //Header guard
 #ifndef XORGATE_H
