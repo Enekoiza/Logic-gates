@@ -11,7 +11,7 @@ class NotGate : public UnaryGate
 public:
 	//Constructors
 	NotGate() {};
-	NotGate(bool pin);
+	NotGate(bool pin) : UnaryGate(pin) {};
 
 	//Destructor
 	~NotGate() {};

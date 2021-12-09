@@ -13,6 +13,10 @@ protected:
 	bool pin;
 
 public:
+	//Constructors
+	UnaryGate() {};
+	UnaryGate(bool pin);
+
 	//Function to set the value of the pin
 	void setPin(bool newVal);
 

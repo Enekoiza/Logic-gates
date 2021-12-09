@@ -11,7 +11,7 @@ class OrGate : public BinaryGate
 public:
 	//Constructors
 	OrGate() {};
-	OrGate(bool pinA, bool pinB);
+	OrGate(bool pinA, bool pinB) : BinaryGate(pinA, pinB) {};
 
 	//Destructor
 	~OrGate() {};

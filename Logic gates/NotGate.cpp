@@ -2,10 +2,10 @@
 
 
 //Constructor
-NotGate::NotGate(bool pin)
-{
-	this->pin = pin;
-}
+//NotGate::NotGate(bool pin)
+//{
+//	this->pin = pin;
+//}
 
 
 //Perform the logic of this gate

@@ -14,6 +14,12 @@ protected:
 	bool pinB;
 
 public:
+	//Constructors
+	BinaryGate() {};
+	BinaryGate(bool pinA, bool pinB);
+
+
+
 	//Function to set the value of the pines
 	void setPinA(bool newVal);
 	void setPinB(bool newVal);

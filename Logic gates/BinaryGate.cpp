@@ -1,7 +1,15 @@
 #include "BinaryGate.h"
 
-//Functions to set the value of the gates that inherits from this class
 
+//Constructors
+
+BinaryGate::BinaryGate(bool pinA, bool pinB)
+{
+	this->pinA = pinA;
+	this->pinB = pinB;
+}
+
+//Functions to set the value of the gates entry pins that inherits from this class
 
 void BinaryGate::setPinA(bool newVal)
 {

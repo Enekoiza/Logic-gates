@@ -10,7 +10,7 @@ class AndGate : public BinaryGate
 public:
 	//Constructor
 	AndGate() {};
-	AndGate(bool pinA, bool pinB);
+	AndGate(bool pinA, bool pinB) : BinaryGate(pinA, pinB) {};
 
 	//Destructor
 	~AndGate() {};
